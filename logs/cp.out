@@ -1,0 +1,757 @@
+/k8scp_run does not exist. Running  script
+Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:5 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [1639 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2002 kB]
+Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [10.8 kB]
+Get:8 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [1103 kB]
+Get:9 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [588 B]
+Get:10 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [713 kB]
+Get:11 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [14.7 kB]
+Get:12 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [22.2 kB]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [508 B]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [15.6 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [1187 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 c-n-f Metadata [584 B]
+Get:17 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [935 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [21.0 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [24.4 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [588 B]
+Get:21 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [45.6 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 c-n-f Metadata [1420 B]
+Get:23 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [24.0 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [860 B]
+Fetched 8097 kB in 2s (3851 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+17 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following NEW packages will be installed:
+  linux-image-5.4.0-122-generic linux-modules-5.4.0-122-generic
+  linux-modules-extra-5.4.0-122-generic
+The following packages will be upgraded:
+  git git-man libfreetype6 libgnutls30 libgstreamer1.0-0 libnetplan0
+  libpython3.8 libpython3.8-minimal libpython3.8-stdlib libxml2 linux-firmware
+  linux-image-generic netplan.io python3-jwt python3.8 python3.8-minimal
+  wireless-regdb
+17 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+14 standard security updates
+Need to get 204 MB of archives.
+After this operation, 294 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpython3.8 amd64 3.8.10-0ubuntu1~20.04.5 [1625 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3.8 amd64 3.8.10-0ubuntu1~20.04.5 [387 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpython3.8-stdlib amd64 3.8.10-0ubuntu1~20.04.5 [1675 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3.8-minimal amd64 3.8.10-0ubuntu1~20.04.5 [1905 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpython3.8-minimal amd64 3.8.10-0ubuntu1~20.04.5 [717 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgnutls30 amd64 3.6.13-2ubuntu1.7 [828 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 netplan.io amd64 0.104-0ubuntu2~20.04.2 [88.0 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnetplan0 amd64 0.104-0ubuntu2~20.04.2 [82.5 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libxml2 amd64 2.9.10+dfsg-5ubuntu0.20.04.4 [640 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 git-man all 1:2.25.1-1ubuntu3.5 [886 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 git amd64 1:2.25.1-1ubuntu3.5 [4557 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libfreetype6 amd64 2.10.1-2ubuntu0.2 [341 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgstreamer1.0-0 amd64 1.16.3-0ubuntu1.1 [894 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-firmware all 1.187.33 [125 MB]
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-5.4.0-122-generic amd64 5.4.0-122.138 [15.0 MB]
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-image-5.4.0-122-generic amd64 5.4.0-122.138 [10.5 MB]
+Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-extra-5.4.0-122-generic amd64 5.4.0-122.138 [39.2 MB]
+Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-image-generic amd64 5.4.0.122.123 [2564 B]
+Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-jwt all 1.7.1-2ubuntu2.1 [18.0 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 wireless-regdb all 2022.06.06-0ubuntu1~20.04.1 [9872 B]
+Fetched 204 MB in 6s (34.0 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43155 files and directories currently installed.)
+Preparing to unpack .../0-libpython3.8_3.8.10-0ubuntu1~20.04.5_amd64.deb ...
+Unpacking libpython3.8:amd64 (3.8.10-0ubuntu1~20.04.5) over (3.8.10-0ubuntu1~20.04.4) ...
+Preparing to unpack .../1-python3.8_3.8.10-0ubuntu1~20.04.5_amd64.deb ...
+Unpacking python3.8 (3.8.10-0ubuntu1~20.04.5) over (3.8.10-0ubuntu1~20.04.4) ...
+Preparing to unpack .../2-libpython3.8-stdlib_3.8.10-0ubuntu1~20.04.5_amd64.deb ...
+Unpacking libpython3.8-stdlib:amd64 (3.8.10-0ubuntu1~20.04.5) over (3.8.10-0ubuntu1~20.04.4) ...
+Preparing to unpack .../3-python3.8-minimal_3.8.10-0ubuntu1~20.04.5_amd64.deb ...
+Unpacking python3.8-minimal (3.8.10-0ubuntu1~20.04.5) over (3.8.10-0ubuntu1~20.04.4) ...
+Preparing to unpack .../4-libpython3.8-minimal_3.8.10-0ubuntu1~20.04.5_amd64.deb ...
+Unpacking libpython3.8-minimal:amd64 (3.8.10-0ubuntu1~20.04.5) over (3.8.10-0ubuntu1~20.04.4) ...
+Preparing to unpack .../5-libgnutls30_3.6.13-2ubuntu1.7_amd64.deb ...
+Unpacking libgnutls30:amd64 (3.6.13-2ubuntu1.7) over (3.6.13-2ubuntu1.6) ...
+Setting up libgnutls30:amd64 (3.6.13-2ubuntu1.7) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43155 files and directories currently installed.)
+Preparing to unpack .../00-netplan.io_0.104-0ubuntu2~20.04.2_amd64.deb ...
+Unpacking netplan.io (0.104-0ubuntu2~20.04.2) over (0.104-0ubuntu2~20.04.1) ...
+Preparing to unpack .../01-libnetplan0_0.104-0ubuntu2~20.04.2_amd64.deb ...
+Unpacking libnetplan0:amd64 (0.104-0ubuntu2~20.04.2) over (0.104-0ubuntu2~20.04.1) ...
+Preparing to unpack .../02-libxml2_2.9.10+dfsg-5ubuntu0.20.04.4_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.10+dfsg-5ubuntu0.20.04.4) over (2.9.10+dfsg-5ubuntu0.20.04.3) ...
+Preparing to unpack .../03-git-man_1%3a2.25.1-1ubuntu3.5_all.deb ...
+Unpacking git-man (1:2.25.1-1ubuntu3.5) over (1:2.25.1-1ubuntu3.4) ...
+Preparing to unpack .../04-git_1%3a2.25.1-1ubuntu3.5_amd64.deb ...
+Unpacking git (1:2.25.1-1ubuntu3.5) over (1:2.25.1-1ubuntu3.4) ...
+Preparing to unpack .../05-libfreetype6_2.10.1-2ubuntu0.2_amd64.deb ...
+Unpacking libfreetype6:amd64 (2.10.1-2ubuntu0.2) over (2.10.1-2ubuntu0.1) ...
+Preparing to unpack .../06-libgstreamer1.0-0_1.16.3-0ubuntu1.1_amd64.deb ...
+Unpacking libgstreamer1.0-0:amd64 (1.16.3-0ubuntu1.1) over (1.16.2-2) ...
+Preparing to unpack .../07-linux-firmware_1.187.33_all.deb ...
+Unpacking linux-firmware (1.187.33) over (1.187.31) ...
+Selecting previously unselected package linux-modules-5.4.0-122-generic.
+Preparing to unpack .../08-linux-modules-5.4.0-122-generic_5.4.0-122.138_amd64.deb ...
+Unpacking linux-modules-5.4.0-122-generic (5.4.0-122.138) ...
+Selecting previously unselected package linux-image-5.4.0-122-generic.
+Preparing to unpack .../09-linux-image-5.4.0-122-generic_5.4.0-122.138_amd64.deb ...
+Unpacking linux-image-5.4.0-122-generic (5.4.0-122.138) ...
+Selecting previously unselected package linux-modules-extra-5.4.0-122-generic.
+Preparing to unpack .../10-linux-modules-extra-5.4.0-122-generic_5.4.0-122.138_amd64.deb ...
+Unpacking linux-modules-extra-5.4.0-122-generic (5.4.0-122.138) ...
+Preparing to unpack .../11-linux-image-generic_5.4.0.122.123_amd64.deb ...
+Unpacking linux-image-generic (5.4.0.122.123) over (5.4.0.121.122) ...
+Preparing to unpack .../12-python3-jwt_1.7.1-2ubuntu2.1_all.deb ...
+Unpacking python3-jwt (1.7.1-2ubuntu2.1) over (1.7.1-2ubuntu2) ...
+Preparing to unpack .../13-wireless-regdb_2022.06.06-0ubuntu1~20.04.1_all.deb ...
+Unpacking wireless-regdb (2022.06.06-0ubuntu1~20.04.1) over (2021.08.28-0ubuntu1~20.04.1) ...
+Setting up libpython3.8-minimal:amd64 (3.8.10-0ubuntu1~20.04.5) ...
+Setting up python3-jwt (1.7.1-2ubuntu2.1) ...
+Setting up linux-firmware (1.187.33) ...
+update-initramfs: Generating /boot/initrd.img-5.4.0-121-generic
+Setting up wireless-regdb (2022.06.06-0ubuntu1~20.04.1) ...
+Setting up libnetplan0:amd64 (0.104-0ubuntu2~20.04.2) ...
+Setting up netplan.io (0.104-0ubuntu2~20.04.2) ...
+Setting up linux-modules-5.4.0-122-generic (5.4.0-122.138) ...
+Setting up libfreetype6:amd64 (2.10.1-2ubuntu0.2) ...
+Setting up python3.8-minimal (3.8.10-0ubuntu1~20.04.5) ...
+Setting up git-man (1:2.25.1-1ubuntu3.5) ...
+Setting up libpython3.8-stdlib:amd64 (3.8.10-0ubuntu1~20.04.5) ...
+Setting up python3.8 (3.8.10-0ubuntu1~20.04.5) ...
+Setting up libxml2:amd64 (2.9.10+dfsg-5ubuntu0.20.04.4) ...
+Setting up libgstreamer1.0-0:amd64 (1.16.3-0ubuntu1.1) ...
+Setcap worked! gst-ptp-helper is not suid!
+Setting up linux-image-5.4.0-122-generic (5.4.0-122.138) ...
+I: /boot/vmlinuz is now a symlink to vmlinuz-5.4.0-122-generic
+I: /boot/initrd.img is now a symlink to initrd.img-5.4.0-122-generic
+Setting up linux-modules-extra-5.4.0-122-generic (5.4.0-122.138) ...
+Setting up libpython3.8:amd64 (3.8.10-0ubuntu1~20.04.5) ...
+Setting up git (1:2.25.1-1ubuntu3.5) ...
+Setting up linux-image-generic (5.4.0.122.123) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for dbus (1.12.16-2ubuntu2.2) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for linux-image-5.4.0-122-generic (5.4.0-122.138) ...
+/etc/kernel/postinst.d/dkms:
+ * dkms: running auto installation service for kernel 5.4.0-122-generic
+   ...done.
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-5.4.0-122-generic
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.4.0-122-generic
+Found initrd image: /boot/initrd.img-5.4.0-122-generic
+Found linux image: /boot/vmlinuz-5.4.0-121-generic
+Found initrd image: /boot/initrd.img-5.4.0-121-generic
+done
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ca-certificates is already the newest version (20211016~20.04.1).
+ca-certificates set to manually installed.
+curl is already the newest version (7.68.0-1ubuntu2.12).
+git is already the newest version (1:2.25.1-1ubuntu3.5).
+git set to manually installed.
+software-properties-common is already the newest version (0.99.9.8).
+vim is already the newest version (2:8.1.2269-1ubuntu5.7).
+vim set to manually installed.
+wget is already the newest version (1.20.3-1ubuntu2).
+wget set to manually installed.
+apt-transport-https is already the newest version (2.0.9).
+The following NEW packages will be installed:
+  gnupg2 uidmap
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 31.3 kB of archives.
+After this operation, 222 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 uidmap amd64 1:4.8.1-1ubuntu5.20.04.2 [26.0 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 gnupg2 all 2.2.19-3ubuntu2.2 [5316 B]
+Fetched 31.3 kB in 0s (93.5 kB/s)
+Selecting previously unselected package uidmap.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 49775 files and directories currently installed.)
+Preparing to unpack .../uidmap_1%3a4.8.1-1ubuntu5.20.04.2_amd64.deb ...
+Unpacking uidmap (1:4.8.1-1ubuntu5.20.04.2) ...
+Selecting previously unselected package gnupg2.
+Preparing to unpack .../gnupg2_2.2.19-3ubuntu2.2_all.deb ...
+Unpacking gnupg2 (2.2.19-3ubuntu2.2) ...
+Setting up gnupg2 (2.2.19-3ubuntu2.2) ...
+Setting up uidmap (1:4.8.1-1ubuntu5.20.04.2) ...
+Processing triggers for man-db (2.9.1-1) ...
+OK
+deb https://apt.kubernetes.io/ kubernetes-xenial main
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Get:1 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [9383 B]
+Get:6 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 Packages [57.6 kB]
+Fetched 67.0 kB in 1s (59.6 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  conntrack cri-tools ebtables kubernetes-cni socat
+Suggested packages:
+  nftables
+The following NEW packages will be installed:
+  conntrack cri-tools ebtables kubeadm kubectl kubelet kubernetes-cni socat
+0 upgraded, 8 newly installed, 0 to remove and 0 not upgraded.
+Need to get 75.3 MB of archives.
+After this operation, 314 MB of additional disk space will be used.
+Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 conntrack amd64 1:1.4.5-2 [30.3 kB]
+Get:1 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 cri-tools amd64 1.24.2-00 [12.3 MB]
+Get:7 http://archive.ubuntu.com/ubuntu focal/main amd64 ebtables amd64 2.0.11-3build1 [80.3 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal/main amd64 socat amd64 1.7.3.3-2 [323 kB]
+Get:2 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubernetes-cni amd64 0.8.7-00 [25.0 MB]
+Get:3 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubelet amd64 1.24.1-00 [19.3 MB]
+Get:5 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubectl amd64 1.24.1-00 [9318 kB]
+Get:6 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 kubeadm amd64 1.24.1-00 [9000 kB]
+Fetched 75.3 MB in 4s (17.1 MB/s)
+Selecting previously unselected package conntrack.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 49790 files and directories currently installed.)
+Preparing to unpack .../0-conntrack_1%3a1.4.5-2_amd64.deb ...
+Unpacking conntrack (1:1.4.5-2) ...
+Selecting previously unselected package cri-tools.
+Preparing to unpack .../1-cri-tools_1.24.2-00_amd64.deb ...
+Unpacking cri-tools (1.24.2-00) ...
+Selecting previously unselected package ebtables.
+Preparing to unpack .../2-ebtables_2.0.11-3build1_amd64.deb ...
+Unpacking ebtables (2.0.11-3build1) ...
+Selecting previously unselected package kubernetes-cni.
+Preparing to unpack .../3-kubernetes-cni_0.8.7-00_amd64.deb ...
+Unpacking kubernetes-cni (0.8.7-00) ...
+Selecting previously unselected package socat.
+Preparing to unpack .../4-socat_1.7.3.3-2_amd64.deb ...
+Unpacking socat (1.7.3.3-2) ...
+Selecting previously unselected package kubelet.
+Preparing to unpack .../5-kubelet_1.24.1-00_amd64.deb ...
+Unpacking kubelet (1.24.1-00) ...
+Selecting previously unselected package kubectl.
+Preparing to unpack .../6-kubectl_1.24.1-00_amd64.deb ...
+Unpacking kubectl (1.24.1-00) ...
+Selecting previously unselected package kubeadm.
+Preparing to unpack .../7-kubeadm_1.24.1-00_amd64.deb ...
+Unpacking kubeadm (1.24.1-00) ...
+Setting up conntrack (1:1.4.5-2) ...
+Setting up kubectl (1.24.1-00) ...
+Setting up ebtables (2.0.11-3build1) ...
+Setting up socat (1.7.3.3-2) ...
+Setting up cri-tools (1.24.2-00) ...
+Setting up kubernetes-cni (0.8.7-00) ...
+Setting up kubelet (1.24.1-00) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/kubelet.service → /lib/systemd/system/kubelet.service.
+Setting up kubeadm (1.24.1-00) ...
+Processing triggers for man-db (2.9.1-1) ...
+kubelet set on hold.
+kubeadm set on hold.
+kubectl set on hold.
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+net.ipv4.ip_forward = 1
+* Applying /etc/sysctl.d/10-console-messages.conf ...
+kernel.printk = 4 4 1 7
+* Applying /etc/sysctl.d/10-ipv6-privacy.conf ...
+net.ipv6.conf.all.use_tempaddr = 2
+net.ipv6.conf.default.use_tempaddr = 2
+* Applying /etc/sysctl.d/10-kernel-hardening.conf ...
+kernel.kptr_restrict = 1
+* Applying /etc/sysctl.d/10-link-restrictions.conf ...
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/10-magic-sysrq.conf ...
+kernel.sysrq = 176
+* Applying /etc/sysctl.d/10-network-security.conf ...
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.all.rp_filter = 2
+* Applying /etc/sysctl.d/10-ptrace.conf ...
+kernel.yama.ptrace_scope = 1
+* Applying /etc/sysctl.d/10-zeropage.conf ...
+vm.mmap_min_addr = 65536
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.ping_group_range = 0 2147483647
+net.core.default_qdisc = fq_codel
+fs.protected_regular = 1
+fs.protected_fifos = 1
+* Applying /usr/lib/sysctl.d/50-pid-max.conf ...
+kernel.pid_max = 4194304
+* Applying /etc/sysctl.d/99-cloudimg-ipv6.conf ...
+net.ipv6.conf.all.use_tempaddr = 0
+net.ipv6.conf.default.use_tempaddr = 0
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_sack = 1
+* Applying /etc/sysctl.d/kubernetes.conf ...
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+net.ipv4.ip_forward = 1
+* Applying /usr/lib/sysctl.d/protect-links.conf ...
+fs.protected_fifos = 1
+fs.protected_hardlinks = 1
+fs.protected_regular = 2
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.conf ...
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_sack = 1
+overlay
+br_netfilter
+* Applying /etc/sysctl.d/10-console-messages.conf ...
+kernel.printk = 4 4 1 7
+* Applying /etc/sysctl.d/10-ipv6-privacy.conf ...
+net.ipv6.conf.all.use_tempaddr = 2
+net.ipv6.conf.default.use_tempaddr = 2
+* Applying /etc/sysctl.d/10-kernel-hardening.conf ...
+kernel.kptr_restrict = 1
+* Applying /etc/sysctl.d/10-link-restrictions.conf ...
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/10-magic-sysrq.conf ...
+kernel.sysrq = 176
+* Applying /etc/sysctl.d/10-network-security.conf ...
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.all.rp_filter = 2
+* Applying /etc/sysctl.d/10-ptrace.conf ...
+kernel.yama.ptrace_scope = 1
+* Applying /etc/sysctl.d/10-zeropage.conf ...
+vm.mmap_min_addr = 65536
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.ping_group_range = 0 2147483647
+net.core.default_qdisc = fq_codel
+fs.protected_regular = 1
+fs.protected_fifos = 1
+* Applying /usr/lib/sysctl.d/50-pid-max.conf ...
+kernel.pid_max = 4194304
+* Applying /etc/sysctl.d/99-cloudimg-ipv6.conf ...
+net.ipv6.conf.all.use_tempaddr = 0
+net.ipv6.conf.default.use_tempaddr = 0
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_sack = 1
+* Applying /etc/sysctl.d/kubernetes.conf ...
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+net.ipv4.ip_forward = 1
+* Applying /usr/lib/sysctl.d/protect-links.conf ...
+fs.protected_fifos = 1
+fs.protected_hardlinks = 1
+fs.protected_regular = 2
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.conf ...
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_sack = 1
+OK
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Get:2 https://download.docker.com/linux/ubuntu focal InRelease [57.7 kB]
+Hit:4 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:3 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [9383 B]
+Hit:5 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Get:6 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages [17.7 kB]
+Hit:7 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Fetched 84.8 kB in 1s (105 kB/s)
+Reading package lists...
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 https://download.docker.com/linux/ubuntu focal InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+3 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  containerd.io
+0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 28.1 MB of archives.
+After this operation, 127 MB of additional disk space will be used.
+Get:1 https://download.docker.com/linux/ubuntu focal/stable amd64 containerd.io amd64 1.6.7-1 [28.1 MB]
+Fetched 28.1 MB in 1s (55.9 MB/s)
+Selecting previously unselected package containerd.io.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 49883 files and directories currently installed.)
+Preparing to unpack .../containerd.io_1.6.7-1_amd64.deb ...
+Unpacking containerd.io (1.6.7-1) ...
+Setting up containerd.io (1.6.7-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.
+Processing triggers for man-db (2.9.1-1) ...
+disabled_plugins = []
+imports = []
+oom_score = 0
+plugin_dir = ""
+required_plugins = []
+root = "/var/lib/containerd"
+state = "/run/containerd"
+temp = ""
+version = 2
+
+[cgroup]
+  path = ""
+
+[debug]
+  address = ""
+  format = ""
+  gid = 0
+  level = ""
+  uid = 0
+
+[grpc]
+  address = "/run/containerd/containerd.sock"
+  gid = 0
+  max_recv_message_size = 16777216
+  max_send_message_size = 16777216
+  tcp_address = ""
+  tcp_tls_ca = ""
+  tcp_tls_cert = ""
+  tcp_tls_key = ""
+  uid = 0
+
+[metrics]
+  address = ""
+  grpc_histogram = false
+
+[plugins]
+
+  [plugins."io.containerd.gc.v1.scheduler"]
+    deletion_threshold = 0
+    mutation_threshold = 100
+    pause_threshold = 0.02
+    schedule_delay = "0s"
+    startup_delay = "100ms"
+
+  [plugins."io.containerd.grpc.v1.cri"]
+    device_ownership_from_security_context = false
+    disable_apparmor = false
+    disable_cgroup = false
+    disable_hugetlb_controller = true
+    disable_proc_mount = false
+    disable_tcp_service = true
+    enable_selinux = false
+    enable_tls_streaming = false
+    enable_unprivileged_icmp = false
+    enable_unprivileged_ports = false
+    ignore_image_defined_volumes = false
+    max_concurrent_downloads = 3
+    max_container_log_line_size = 16384
+    netns_mounts_under_state_dir = false
+    restrict_oom_score_adj = false
+    sandbox_image = "k8s.gcr.io/pause:3.6"
+    selinux_category_range = 1024
+    stats_collect_period = 10
+    stream_idle_timeout = "4h0m0s"
+    stream_server_address = "127.0.0.1"
+    stream_server_port = "0"
+    systemd_cgroup = false
+    tolerate_missing_hugetlb_controller = true
+    unset_seccomp_profile = ""
+
+    [plugins."io.containerd.grpc.v1.cri".cni]
+      bin_dir = "/opt/cni/bin"
+      conf_dir = "/etc/cni/net.d"
+      conf_template = ""
+      ip_pref = ""
+      max_conf_num = 1
+
+    [plugins."io.containerd.grpc.v1.cri".containerd]
+      default_runtime_name = "runc"
+      disable_snapshot_annotations = true
+      discard_unpacked_layers = false
+      ignore_rdt_not_enabled_errors = false
+      no_pivot = false
+      snapshotter = "overlayfs"
+
+      [plugins."io.containerd.grpc.v1.cri".containerd.default_runtime]
+        base_runtime_spec = ""
+        cni_conf_dir = ""
+        cni_max_conf_num = 0
+        container_annotations = []
+        pod_annotations = []
+        privileged_without_host_devices = false
+        runtime_engine = ""
+        runtime_path = ""
+        runtime_root = ""
+        runtime_type = ""
+
+        [plugins."io.containerd.grpc.v1.cri".containerd.default_runtime.options]
+
+      [plugins."io.containerd.grpc.v1.cri".containerd.runtimes]
+
+        [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc]
+          base_runtime_spec = ""
+          cni_conf_dir = ""
+          cni_max_conf_num = 0
+          container_annotations = []
+          pod_annotations = []
+          privileged_without_host_devices = false
+          runtime_engine = ""
+          runtime_path = ""
+          runtime_root = ""
+          runtime_type = "io.containerd.runc.v2"
+
+          [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
+            BinaryName = ""
+            CriuImagePath = ""
+            CriuPath = ""
+            CriuWorkPath = ""
+            IoGid = 0
+            IoUid = 0
+            NoNewKeyring = false
+            NoPivotRoot = false
+            Root = ""
+            ShimCgroup = ""
+            SystemdCgroup = false
+
+      [plugins."io.containerd.grpc.v1.cri".containerd.untrusted_workload_runtime]
+        base_runtime_spec = ""
+        cni_conf_dir = ""
+        cni_max_conf_num = 0
+        container_annotations = []
+        pod_annotations = []
+        privileged_without_host_devices = false
+        runtime_engine = ""
+        runtime_path = ""
+        runtime_root = ""
+        runtime_type = ""
+
+        [plugins."io.containerd.grpc.v1.cri".containerd.untrusted_workload_runtime.options]
+
+    [plugins."io.containerd.grpc.v1.cri".image_decryption]
+      key_model = "node"
+
+    [plugins."io.containerd.grpc.v1.cri".registry]
+      config_path = ""
+
+      [plugins."io.containerd.grpc.v1.cri".registry.auths]
+
+      [plugins."io.containerd.grpc.v1.cri".registry.configs]
+
+      [plugins."io.containerd.grpc.v1.cri".registry.headers]
+
+      [plugins."io.containerd.grpc.v1.cri".registry.mirrors]
+
+    [plugins."io.containerd.grpc.v1.cri".x509_key_pair_streaming]
+      tls_cert_file = ""
+      tls_key_file = ""
+
+  [plugins."io.containerd.internal.v1.opt"]
+    path = "/opt/containerd"
+
+  [plugins."io.containerd.internal.v1.restart"]
+    interval = "10s"
+
+  [plugins."io.containerd.internal.v1.tracing"]
+    sampling_ratio = 1.0
+    service_name = "containerd"
+
+  [plugins."io.containerd.metadata.v1.bolt"]
+    content_sharing_policy = "shared"
+
+  [plugins."io.containerd.monitor.v1.cgroups"]
+    no_prometheus = false
+
+  [plugins."io.containerd.runtime.v1.linux"]
+    no_shim = false
+    runtime = "runc"
+    runtime_root = ""
+    shim = "containerd-shim"
+    shim_debug = false
+
+  [plugins."io.containerd.runtime.v2.task"]
+    platforms = ["linux/amd64"]
+    sched_core = false
+
+  [plugins."io.containerd.service.v1.diff-service"]
+    default = ["walking"]
+
+  [plugins."io.containerd.service.v1.tasks-service"]
+    rdt_config_file = ""
+
+  [plugins."io.containerd.snapshotter.v1.aufs"]
+    root_path = ""
+
+  [plugins."io.containerd.snapshotter.v1.btrfs"]
+    root_path = ""
+
+  [plugins."io.containerd.snapshotter.v1.devmapper"]
+    async_remove = false
+    base_image_size = ""
+    discard_blocks = false
+    fs_options = ""
+    fs_type = ""
+    pool_name = ""
+    root_path = ""
+
+  [plugins."io.containerd.snapshotter.v1.native"]
+    root_path = ""
+
+  [plugins."io.containerd.snapshotter.v1.overlayfs"]
+    root_path = ""
+    upperdir_label = false
+
+  [plugins."io.containerd.snapshotter.v1.zfs"]
+    root_path = ""
+
+  [plugins."io.containerd.tracing.processor.v1.otlp"]
+    endpoint = ""
+    insecure = false
+    protocol = ""
+
+[proxy_plugins]
+
+[stream_processors]
+
+  [stream_processors."io.containerd.ocicrypt.decoder.v1.tar"]
+    accepts = ["application/vnd.oci.image.layer.v1.tar+encrypted"]
+    args = ["--decryption-keys-path", "/etc/containerd/ocicrypt/keys"]
+    env = ["OCICRYPT_KEYPROVIDER_CONFIG=/etc/containerd/ocicrypt/ocicrypt_keyprovider.conf"]
+    path = "ctd-decoder"
+    returns = "application/vnd.oci.image.layer.v1.tar"
+
+  [stream_processors."io.containerd.ocicrypt.decoder.v1.tar.gzip"]
+    accepts = ["application/vnd.oci.image.layer.v1.tar+gzip+encrypted"]
+    args = ["--decryption-keys-path", "/etc/containerd/ocicrypt/keys"]
+    env = ["OCICRYPT_KEYPROVIDER_CONFIG=/etc/containerd/ocicrypt/ocicrypt_keyprovider.conf"]
+    path = "ctd-decoder"
+    returns = "application/vnd.oci.image.layer.v1.tar+gzip"
+
+[timeouts]
+  "io.containerd.timeout.bolt.open" = "0s"
+  "io.containerd.timeout.shim.cleanup" = "5s"
+  "io.containerd.timeout.shim.load" = "5s"
+  "io.containerd.timeout.shim.shutdown" = "3s"
+  "io.containerd.timeout.task.state" = "2s"
+
+[ttrpc]
+  address = ""
+  gid = 0
+  uid = 0
+[[registry]]
+location = "<YOUR-registry-IP-Here:5000"
+insecure = true
+[init] Using Kubernetes version: v1.24.3
+[preflight] Running pre-flight checks
+[preflight] Pulling images required for setting up a Kubernetes cluster
+[preflight] This might take a minute or two, depending on the speed of your internet connection
+[preflight] You can also perform this action in beforehand using 'kubeadm config images pull'
+[certs] Using certificateDir folder "/etc/kubernetes/pki"
+[certs] Generating "ca" certificate and key
+[certs] Generating "apiserver" certificate and key
+[certs] apiserver serving cert is signed for DNS names [control-plane-a23e-f82d95 kubernetes kubernetes.default kubernetes.default.svc kubernetes.default.svc.cluster.local] and IPs [10.96.0.1 192.168.1.15]
+[certs] Generating "apiserver-kubelet-client" certificate and key
+[certs] Generating "front-proxy-ca" certificate and key
+[certs] Generating "front-proxy-client" certificate and key
+[certs] Generating "etcd/ca" certificate and key
+[certs] Generating "etcd/server" certificate and key
+[certs] etcd/server serving cert is signed for DNS names [control-plane-a23e-f82d95 localhost] and IPs [192.168.1.15 127.0.0.1 ::1]
+[certs] Generating "etcd/peer" certificate and key
+[certs] etcd/peer serving cert is signed for DNS names [control-plane-a23e-f82d95 localhost] and IPs [192.168.1.15 127.0.0.1 ::1]
+[certs] Generating "etcd/healthcheck-client" certificate and key
+[certs] Generating "apiserver-etcd-client" certificate and key
+[certs] Generating "sa" key and public key
+[kubeconfig] Using kubeconfig folder "/etc/kubernetes"
+[kubeconfig] Writing "admin.conf" kubeconfig file
+[kubeconfig] Writing "kubelet.conf" kubeconfig file
+[kubeconfig] Writing "controller-manager.conf" kubeconfig file
+[kubeconfig] Writing "scheduler.conf" kubeconfig file
+[kubelet-start] Writing kubelet environment file with flags to file "/var/lib/kubelet/kubeadm-flags.env"
+[kubelet-start] Writing kubelet configuration to file "/var/lib/kubelet/config.yaml"
+[kubelet-start] Starting the kubelet
+[control-plane] Using manifest folder "/etc/kubernetes/manifests"
+[control-plane] Creating static Pod manifest for "kube-apiserver"
+[control-plane] Creating static Pod manifest for "kube-controller-manager"
+[control-plane] Creating static Pod manifest for "kube-scheduler"
+[etcd] Creating static Pod manifest for local etcd in "/etc/kubernetes/manifests"
+[wait-control-plane] Waiting for the kubelet to boot up the control plane as static Pods from directory "/etc/kubernetes/manifests". This can take up to 4m0s
+[apiclient] All control plane components are healthy after 10.007639 seconds
+[upload-config] Storing the configuration used in ConfigMap "kubeadm-config" in the "kube-system" Namespace
+[kubelet] Creating a ConfigMap "kubelet-config" in namespace kube-system with the configuration for the kubelets in the cluster
+[upload-certs] Skipping phase. Please see --upload-certs
+[mark-control-plane] Marking the node control-plane-a23e-f82d95 as control-plane by adding the labels: [node-role.kubernetes.io/control-plane node.kubernetes.io/exclude-from-external-load-balancers]
+[mark-control-plane] Marking the node control-plane-a23e-f82d95 as control-plane by adding the taints [node-role.kubernetes.io/master:NoSchedule node-role.kubernetes.io/control-plane:NoSchedule]
+[bootstrap-token] Using token: hz5hn0.pop0ygqo1sq79hyf
+[bootstrap-token] Configuring bootstrap tokens, cluster-info ConfigMap, RBAC Roles
+[bootstrap-token] Configured RBAC rules to allow Node Bootstrap tokens to get nodes
+[bootstrap-token] Configured RBAC rules to allow Node Bootstrap tokens to post CSRs in order for nodes to get long term certificate credentials
+[bootstrap-token] Configured RBAC rules to allow the csrapprover controller automatically approve CSRs from a Node Bootstrap Token
+[bootstrap-token] Configured RBAC rules to allow certificate rotation for all node client certificates in the cluster
+[bootstrap-token] Creating the "cluster-info" ConfigMap in the "kube-public" namespace
+[kubelet-finalize] Updating "/etc/kubernetes/kubelet.conf" to point to a rotatable kubelet client certificate and key
+[addons] Applied essential addon: CoreDNS
+[addons] Applied essential addon: kube-proxy
+
+Your Kubernetes control-plane has initialized successfully!
+
+To start using your cluster, you need to run the following as a regular user:
+
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+Alternatively, if you are the root user, you can run:
+
+  export KUBECONFIG=/etc/kubernetes/admin.conf
+
+You should now deploy a pod network to the cluster.
+Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
+  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+
+Then you can join any number of worker nodes by running the following on each as root:
+
+kubeadm join 192.168.1.15:6443 --token hz5hn0.pop0ygqo1sq79hyf \
+	--discovery-token-ca-cert-hash sha256:a9da46c7ee6c4c659997fee7bd9239c11f27510e4ebe0d56f4ef6d0ba1dc171e 
+configmap/calico-config created
+customresourcedefinition.apiextensions.k8s.io/bgpconfigurations.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/bgppeers.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/blockaffinities.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/caliconodestatuses.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/clusterinformations.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/felixconfigurations.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/globalnetworkpolicies.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/globalnetworksets.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/hostendpoints.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/ipamblocks.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/ipamconfigs.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/ipamhandles.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/ippools.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/ipreservations.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/kubecontrollersconfigurations.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/networkpolicies.crd.projectcalico.org created
+customresourcedefinition.apiextensions.k8s.io/networksets.crd.projectcalico.org created
+clusterrole.rbac.authorization.k8s.io/calico-kube-controllers created
+clusterrolebinding.rbac.authorization.k8s.io/calico-kube-controllers created
+clusterrole.rbac.authorization.k8s.io/calico-node created
+clusterrolebinding.rbac.authorization.k8s.io/calico-node created
+daemonset.apps/calico-node created
+serviceaccount/calico-node created
+deployment.apps/calico-kube-controllers created
+serviceaccount/calico-kube-controllers created
+poddisruptionbudget.policy/calico-kube-controllers created
+NAME                        STATUS     ROLES           AGE   VERSION
+control-plane-a23e-f82d95   NotReady   control-plane   9s    v1.24.1
+
+
+***************************
+
+Continue to the next step
+
+***************************
+
